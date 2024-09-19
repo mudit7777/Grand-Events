@@ -250,16 +250,41 @@
     <footer id="footer">
       <p>Grand Events - We are Because of You!</p>
       <p>
-        Follow us on the following platforms. Go Social and make a difference in
-        someone's life!
+        Follow us on the following platforms. Go and have a look! Corporate
+        Address - Panipat, Haryana
       </p>
-      <p>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-      </p>
+      <div class="social-icons">
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="copyright">Made with ❤️ by Mudit Arora</p>
     </footer>
+    <div class="a-social-b">
+      <aside>
+        <a id="themechanger"><i class="fas fa-lightbulb"></i></a>
+      </aside>
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-github"></i></a>
+      <a href=""><i class="fab fa-instagram"></i></a>
+      <a href=""><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="arrow-btn">
+      <a href="#first"><span class="fas fa-angle-up"></span></a>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1200,
+        });
+      });
+    </script>
+    <script>
+      $("#themechanger").click(function () {
+        $("#woosh").toggleClass("light-theme");
+      });
+    </script>
   </body>
 </html>
-
