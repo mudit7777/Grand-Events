@@ -150,7 +150,7 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     .checkbtn {
         display: block;
         color: var(--main);
